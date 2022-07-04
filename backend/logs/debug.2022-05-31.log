@@ -1,0 +1,8 @@
+2022-05-31 17:56:00.482 [ main ] - [ DEBUG ] [ com.universe.MarketingMgtApplication : 56 ] - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2022-05-31 17:56:02.591 [ main ] - [ DEBUG ] [ com.universe.config.DirtyDataRunnerImpl : 20 ] - SpringBoot启动后执行……
+2022-05-31 17:56:23.926 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.m.users.mapper.UsersMapper.selectUsers_COUNT : 143 ] - ==>  Preparing: SELECT count(0) FROM users t1 LEFT JOIN roles t2 ON t1.roleid = t2.id WHERE t1.projectid = ? AND t1.name IS NOT NULL AND t1.enabled = ? 
+2022-05-31 17:56:23.933 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.m.users.mapper.UsersMapper.selectUsers_COUNT : 143 ] - ==> Parameters: jinan(String), 1(Integer)
+2022-05-31 17:56:23.991 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.m.users.mapper.UsersMapper.selectUsers_COUNT : 143 ] - <==      Total: 1
+2022-05-31 17:56:23.995 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.marketing.users.mapper.UsersMapper.selectUsers : 143 ] - ==>  Preparing: select t1.*,t2.name as role_name from users t1 left join roles t2 on t1.roleid=t2.id where t1.projectid=? and not t1.name is null and t1.enabled=? LIMIT ? 
+2022-05-31 17:56:23.996 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.marketing.users.mapper.UsersMapper.selectUsers : 143 ] - ==> Parameters: jinan(String), 1(Integer), 15(Integer)
+2022-05-31 17:56:24.044 [ http-nio-8080-exec-1 ] - [ DEBUG ] [ c.u.marketing.users.mapper.UsersMapper.selectUsers : 143 ] - <==      Total: 2

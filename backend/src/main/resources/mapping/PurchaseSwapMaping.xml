@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.universe.marketing.purchase.mapper.PurchaseSwapMapper">
+    <insert id="insertSwap">
+        insert into purchase_swap(purchase_id,id) values
+        <foreach collection="list" index="index" item="id" separator=",">
+            ('${purchaseId}', '${id}')
+        </foreach>
+    </insert>
+    <select id="queryPurchaseSonById" resultType="com.universe.marketing.purchase.pojo.vo.PurchaseSonVo">
+        select id,product_sort.sort_name, purchase_count, purchase_state,
+               manage_datetime,msg,purchase_name,
+               cast (total_price  as decimal ( 20 , 2 ))
+        from purchase_sort,product_sort
+        where purchase_sort.sort_id = product_sort.sort_id and purchase_sort.id in
+        <foreach collection="list" index="index" item="id" open="(" separator="," close=")">
+        '${id}'
+        </foreach>
+        <if test="pageNum!=0 and pageSize!=0">
+            LIMIT ${pageNum} OFFSET ${pageSize}
+        </if>
+        <if test="pageNum!=0 and pageSize==0">
+            LIMIT ${pageNum} OFFSET 0
+        </if>
+        <if test="pageNum==0">
+            LIMIT 10 OFFSET ${pageSize}
+        </if>
+    </select>
+    <select id="queryPurchaseSonCount" resultType="int">
+        select count (1)
+        from purchase_sort,product_sort
+        where purchase_sort.sort_id = product_sort.sort_id and purchase_sort.id in
+        <foreach collection="list" index="index" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+</mapper>

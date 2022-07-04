@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+#showSql
+logging:
+  level:
+    com.universe : debug
+spring:
+  datasource:
+    username: team5
+    password: iop890
+    url: jdbc:postgresql://www.victorysoft.online:5432/team5?currentSchema=public&useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.postgresql.Driver
+  redis:
+      host: 110.40.152.26
+      port: 6379
+      password: c.h.2000.1125
+
+  main:
+    allow-bean-definition-overriding: true
+
+pagehelper:
+  helperDialect: postgresql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:mapping/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+
+

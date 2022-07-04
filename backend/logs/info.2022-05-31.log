@@ -1,0 +1,35 @@
+2022-05-31 17:56:00.480 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on 洋垃圾 with PID 31692 (F:\VectorySoftware\MarketingMgt\backend\target\classes started by Haibra Ai in F:\VectorySoftware\MarketingMgt\backend)
+2022-05-31 17:56:00.483 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-05-31 17:56:01.246 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-31 17:56:01.499 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-05-31 17:56:01.505 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-31 17:56:01.505 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-05-31 17:56:01.506 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-31 17:56:01.597 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-05-31 17:56:01.598 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1085 ms
+2022-05-31 17:56:02.158 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-31 17:56:02.230 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-31 17:56:02.318 [ main ] - [ INFO  ] [ t.mybatis.mapper.autoconfigure.MapperCacheDisabler : 60 ] - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-05-31 17:56:02.319 [ main ] - [ INFO  ] [ t.mybatis.mapper.autoconfigure.MapperCacheDisabler : 60 ] - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-05-31 17:56:02.319 [ main ] - [ INFO  ] [ t.mybatis.mapper.autoconfigure.MapperCacheDisabler : 60 ] - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-05-31 17:56:02.319 [ main ] - [ INFO  ] [ t.mybatis.mapper.autoconfigure.MapperCacheDisabler : 83 ] - Clear EntityHelper entityTableMap cache.
+2022-05-31 17:56:02.380 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskScheduler : 171 ] - Initializing ExecutorService 'taskScheduler'
+2022-05-31 17:56:02.406 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-05-31 17:56:02.417 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-05-31 17:56:02.436 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-05-31 17:56:02.533 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: deleteUsingDELETE_1
+2022-05-31 17:56:02.545 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: queryUsingGET_1
+2022-05-31 17:56:02.556 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: saveUsingPOST_1
+2022-05-31 17:56:02.569 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-31 17:56:02.587 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-31 17:56:02.591 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 2.41 seconds (JVM running for 5.073)
+2022-05-31 17:56:23.250 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 17:56:23.251 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-05-31 17:56:23.257 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 6 ms
+2022-05-31 17:56:23.288 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.universe.aop.LogAspect : 87 ] - 用户管理-查询用户
+2022-05-31 17:56:23.325 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-05-31 17:56:23.920 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-05-31 17:56:37.120 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskScheduler : 208 ] - Shutting down ExecutorService 'taskScheduler'
+2022-05-31 17:56:37.121 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-31 17:56:37.123 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-05-31 17:56:37.125 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,57 @@
+2022-06-23 20:55:50.400 [ main ] - [ ERROR ] [ o.s.b.diagnostics.LoggingFailureAnalysisReporter : 40 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mybatisPlusInterceptor', defined in class path resource [com/universe/config/MybatisPlusConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/universe/config/MPConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-06-23 20:56:49.743 [ main ] - [ ERROR ] [ o.s.b.diagnostics.LoggingFailureAnalysisReporter : 40 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mybatisPlusInterceptor', defined in class path resource [com/universe/config/MybatisPlusConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/universe/config/MPConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-06-23 20:58:11.486 [ main ] - [ ERROR ] [ o.s.b.diagnostics.LoggingFailureAnalysisReporter : 40 ] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.getLanguageDriver(MybatisMapperAnnotationBuilder.java:377)
+
+The following method did not exist:
+
+    org.apache.ibatis.session.Configuration.getLanguageDriver(Ljava/lang/Class;)Lorg/apache/ibatis/scripting/LanguageDriver;
+
+The method's class, org.apache.ibatis.session.Configuration, is available from the following locations:
+
+    jar:file:/F:/Environment/apache-maven-3.8.3/maven-repo/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class
+
+It was loaded from the following location:
+
+    file:/F:/Environment/apache-maven-3.8.3/maven-repo/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.apache.ibatis.session.Configuration
+

@@ -1,0 +1,1 @@
+2022-06-18 16:41:31.943 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 327 ] - Can not find table primary key in Class: "com.universe.marketing.users.entity.RoleMenu".

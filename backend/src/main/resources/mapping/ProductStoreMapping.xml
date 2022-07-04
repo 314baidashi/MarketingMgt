@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.universe.marketing.store.mapper.ProductStoreMapper">
+    <select id="queryPageStoreMSG" resultType="com.universe.marketing.store.pojo.vo.StoreVo">
+        select product_store.*, product_sort.sort_name from product_store, product_sort
+        where product_store.sort_id=product_sort.sort_id
+        LIMIT ${pageNum} OFFSET ${pageSize}
+    </select>
+    <select id="queryPageLikeStoreMSG" resultType="com.universe.marketing.store.pojo.vo.StoreVo">
+        select product_store.*,product_sort.sort_name from product_store, product_sort
+        where product_store.sort_id=product_sort.sort_id
+        <if test="query!=null">
+            and product_store.product_name ILIKE regexp_replace(concat('%','${query}','%'),'\\','\\\','g')
+        </if>
+        <if test="pageNum!=0 and pageSize!=0">
+            LIMIT ${pageNum} OFFSET ${pageSize}
+        </if>
+        <if test="pageNum!=0 and pageSize==0">
+            LIMIT ${pageNum} OFFSET 0
+        </if>
+        <if test="pageNum==0">
+            LIMIT 10 OFFSET ${pageSize}
+        </if>
+    </select>
+    <select id="queryStoreMsg" resultType="com.universe.marketing.store.pojo.vo.StoreVo">
+        select product_store.*,product_sort.sort_name from product_store, product_sort
+        where product_store.sort_id=product_sort.sort_id and product_store.product_name ILIKE regexp_replace(concat('%','面','%'),'\\','\\\','g')
+    </select>
+
+    <select id="queryTotalStore" resultType="int">
+        select count (1) from product_store
+        <if test="query!=null">
+            where product_store.product_name ILIKE regexp_replace(concat('%','${query}','%'),'\\','\\\','g')
+        </if>
+    </select>
+
+    <update id="updateStoreByPurchaseSon">
+        update product_store
+        set total=#{count}
+        where product_store.product_id =#{pId}
+    </update>
+    <select id="queryStoreCount" resultType="int">
+        select total from product_store where product_id=#{productId}
+    </select>
+</mapper>

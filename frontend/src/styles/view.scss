@@ -1,0 +1,113 @@
+.container  /deep/ .el-menu--horizontal > .el-menu-item {
+    height: 35px;
+    line-height: 35px;
+  }
+
+  
+/*弹窗样式调整*/
+.container {
+    // width: 96%;
+    height: calc(100vh - 120px);
+    margin: 5px 5px 0px;
+  }
+  
+  .container  /deep/ .el-dialog__header {
+    padding: 0;
+  }
+  
+  .container  /deep/ .el-dialog__headerbtn {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .container  /deep/ .el-dialog__body {
+    padding: 5px 10px;
+  }
+  
+  .container  /deep/ .el-dialog__footer {
+    border-top: 1px solid #d9d9d9;
+  }
+  
+  .container  /deep/ .formTop {
+    margin-top: 5px;
+  }
+  
+  .container  /deep/ .el-form-item--mini.el-form-item,
+  .container  /deep/ .el-form-item--small.el-form-item {
+    margin-bottom: 10px;
+  }
+  
+  .container  /deep/ .el-form-item__content .el-input__inner {
+    width: 140px;
+  }
+  .el-form  /deep/ .el-form-item__content .el-input__inner {
+    width: 455px;
+  }
+  .container  /deep/ .el-input__suffix {
+    font-size: 20px;
+  }
+
+  
+.container  /deep/ .m-nav {
+    margin-top: 0;
+  }
+
+
+  .el-pagination{
+    text-align: left;
+  }
+  .advancedBtn {
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    padding: 0px 20px;
+    font-size: 14px;
+    // position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+  .advancedBtn .el-icon-d-arrow-left {
+    transform: rotate(-90deg);
+    animation: arrowRotate1 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s 1 forwards;
+  }
+  .advancedBtn:hover {
+    color: #39f;
+    border-color: #39f;
+  }
+  .advancedBtn.open {
+    height: 36px;
+    background: #f3f5f5;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+    color: #39f;
+  }
+  
+  .advancedBtn.open .el-icon-d-arrow-left {
+    transform: rotate(90deg);
+    animation: arrowRotate2 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s 1 forwards;
+  }
+
+  .el-menu--collapse .el-menu .el-submenu, .el-menu--popup {
+    min-width: 100px !important;
+  }
+
+  .el-date-editor .el-range-separator{
+    padding: 0px;
+    width: 17px;
+  }
