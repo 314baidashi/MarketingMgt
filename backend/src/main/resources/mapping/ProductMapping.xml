@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.universe.marketing.product.mapper.ProductMapper">
+    <select id="queryAll" resultType="com.universe.marketing.product.pojo.po.Product">
+        select * from product_manage limit 1 OFFSET 3
+    </select>
+    <select id="queryProductList" resultType="com.universe.marketing.product.pojo.vo.ProductSortListVo">
+        select product_manage.product_name, product_manage.product_price_purchase, product_sort.sort_name,
+               product_manage.product_id
+        from product_manage,product_sort
+        where product_manage.sort_id=product_sort.sort_id
+    </select>
+    <select id="queryPageProductList" resultType="com.universe.marketing.product.pojo.vo.ProductShowListVo">
+        select product_manage.*, product_sort.sort_name, users.name from product_sort,product_manage,users
+        where product_manage.sort_id=product_sort.sort_id and product_manage.person_id=users.id
+        <if test="query!=null">
+            and product_manage.product_name ILIKE regexp_replace(concat('%','${query}','%'),'\\','\\\','g')
+        </if>
+        <if test="pageNum!=0 and pageSize!=0">
+            LIMIT ${pageNum} OFFSET ${pageSize}
+        </if>
+        <if test="pageNum!=0 and pageSize==0">
+            LIMIT ${pageNum} OFFSET 0
+        </if>
+        <if test="pageNum==0">
+            LIMIT 10 OFFSET ${pageSize}
+        </if>
+    </select>
+    <select id="queryPageProductCount" resultType="int">
+        select count(1) from product_manage
+        <if test="query!=null">
+            where product_manage.product_name ILIKE regexp_replace(concat('%','${query}','%'),'\\','\\\','g')
+        </if>
+    </select>
+</mapper>

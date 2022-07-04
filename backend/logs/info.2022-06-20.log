@@ -1,0 +1,291 @@
+2022-06-20 21:06:01.684 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 18460 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:06:01.688 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:06:02.386 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:06:02.388 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:06:02.410 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-06-20 21:06:02.629 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:06:02.915 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:06:02.923 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:02.924 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:06:02.924 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:06:03.020 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:06:03.020 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1293 ms
+2022-06-20 21:06:04.619 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:06:04.718 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:06:04.932 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:06:04.946 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:06:04.967 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:06:04.985 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:04.993 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Pausing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:04.994 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2022-06-20 21:06:04.996 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Stopping ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:04.996 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Destroying ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:04.998 [ main ] - [ INFO  ] [ o.s.b.a.l.ConditionEvaluationReportLoggingListener : 136 ] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-20 21:06:05.003 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:06:27.021 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 5772 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:06:27.024 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:06:27.761 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:06:27.763 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:06:27.783 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-06-20 21:06:28.035 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:06:28.269 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:06:28.276 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:28.276 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:06:28.276 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:06:28.345 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:06:28.346 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1238 ms
+2022-06-20 21:06:29.778 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:06:29.871 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:06:30.118 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:06:30.136 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:06:30.159 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:06:30.176 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:06:30.191 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:06:30.193 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.703 seconds (JVM running for 4.642)
+2022-06-20 21:06:47.435 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:06:47.435 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:06:47.441 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 6 ms
+2022-06-20 21:06:47.515 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:06:48.214 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:07:33.028 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:07:33.047 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:07:33.047 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:07:37.838 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 13880 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:07:37.842 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:07:38.507 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:07:38.509 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:07:38.526 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-06-20 21:07:38.732 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:07:38.978 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:07:38.981 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:07:38.981 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:07:38.987 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:07:39.060 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:07:39.060 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1151 ms
+2022-06-20 21:07:40.418 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:07:40.515 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:07:40.825 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:07:40.840 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:07:40.866 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:07:40.882 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:07:40.898 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:07:40.902 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.439 seconds (JVM running for 4.277)
+2022-06-20 21:07:45.141 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:07:45.142 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:07:45.148 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 6 ms
+2022-06-20 21:07:45.212 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:07:45.622 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:07:57.807 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:07:57.847 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:07:57.847 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:08:03.147 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 17572 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:08:03.147 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:08:04.012 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:08:04.012 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:08:04.034 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-06-20 21:08:04.277 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:08:04.582 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:08:04.593 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:08:04.593 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:08:04.593 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:08:04.721 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:08:04.722 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1489 ms
+2022-06-20 21:08:06.466 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:08:06.606 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:08:06.888 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:08:06.901 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:08:06.919 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:08:06.937 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:08:06.956 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:08:06.958 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 4.223 seconds (JVM running for 5.305)
+2022-06-20 21:08:08.738 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:08:08.738 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:08:08.744 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 6 ms
+2022-06-20 21:08:08.818 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:08:09.259 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:15:33.938 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:15:33.971 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:15:33.976 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:15:39.006 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 1800 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:15:39.008 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:15:39.723 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:15:39.724 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:15:39.742 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-06-20 21:15:39.996 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:15:40.286 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:15:40.296 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:15:40.296 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:15:40.296 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:15:40.386 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:15:40.388 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1320 ms
+2022-06-20 21:15:41.893 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:15:41.974 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:15:42.175 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:15:42.192 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:15:42.215 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:15:42.232 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:15:42.246 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:15:42.249 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.611 seconds (JVM running for 4.63)
+2022-06-20 21:15:43.548 [ http-nio-8080-exec-3 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:15:43.549 [ http-nio-8080-exec-3 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:15:43.553 [ http-nio-8080-exec-3 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 4 ms
+2022-06-20 21:15:43.618 [ http-nio-8080-exec-3 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:15:44.087 [ http-nio-8080-exec-3 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:15:44.844 [ http-nio-8080-exec-3 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:15:44.845 [ http-nio-8080-exec-3 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 21:24:45.925 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:24:46.050 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:24:46.055 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:24:52.116 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 19888 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:24:52.121 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:24:52.874 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:24:52.875 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:24:52.896 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-06-20 21:24:53.135 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:24:53.407 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:24:53.414 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:24:53.415 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:24:53.415 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:24:53.497 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:24:53.497 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1297 ms
+2022-06-20 21:24:55.152 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:24:55.242 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:24:55.463 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:24:55.477 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:24:55.499 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:24:55.514 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:24:55.529 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:24:55.531 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.952 seconds (JVM running for 5.031)
+2022-06-20 21:25:59.537 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:25:59.537 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:25:59.542 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 5 ms
+2022-06-20 21:25:59.615 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:25:59.968 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:26:00.728 [ http-nio-8080-exec-1 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:26:00.730 [ http-nio-8080-exec-1 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 21:26:45.408 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:26:45.545 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:26:45.554 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:26:48.102 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 1856 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:26:48.105 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:26:48.884 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:26:48.885 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:26:48.905 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-06-20 21:26:49.132 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:26:49.394 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:26:49.400 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:26:49.401 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:26:49.401 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:26:49.486 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:26:49.486 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1298 ms
+2022-06-20 21:26:51.053 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:26:51.161 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:26:51.406 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:26:51.421 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:26:51.442 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:26:51.456 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:26:51.470 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:26:51.472 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.781 seconds (JVM running for 4.828)
+2022-06-20 21:26:59.632 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:26:59.632 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:26:59.637 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 5 ms
+2022-06-20 21:26:59.702 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:27:00.372 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:27:01.076 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:27:01.078 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 21:33:54.136 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:33:54.266 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:33:54.270 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:33:57.771 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 20288 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:33:57.775 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:33:58.437 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:33:58.438 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:33:58.457 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-06-20 21:33:58.689 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:33:58.946 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:33:58.953 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:33:58.953 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:33:58.953 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:33:59.034 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:33:59.035 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1191 ms
+2022-06-20 21:34:00.413 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:34:00.496 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:34:00.717 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:34:00.731 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:34:00.756 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:34:00.773 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:34:00.786 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:34:00.788 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.441 seconds (JVM running for 4.482)
+2022-06-20 21:34:03.153 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:34:03.154 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:34:03.158 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 4 ms
+2022-06-20 21:34:03.224 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:34:03.674 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:34:04.396 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:34:04.398 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 21:49:11.274 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:49:11.407 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:49:11.412 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:49:17.132 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 17308 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:49:17.135 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:49:17.881 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:49:17.883 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:49:17.912 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2022-06-20 21:49:18.181 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:49:18.462 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:49:18.468 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:49:18.468 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:49:18.468 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:49:18.546 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:49:18.546 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1324 ms
+2022-06-20 21:49:20.025 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:49:20.116 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:49:20.383 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:49:20.399 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:49:20.423 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:49:20.441 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:49:20.456 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:49:20.458 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 3.781 seconds (JVM running for 4.727)
+2022-06-20 21:49:23.884 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:49:23.884 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:49:23.888 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 4 ms
+2022-06-20 21:49:23.955 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:49:25.471 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:49:26.151 [ http-nio-8080-exec-1 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:49:26.152 [ http-nio-8080-exec-1 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 21:58:50.731 [ SpringContextShutdownHook ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:58:50.865 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2022-06-20 21:58:50.868 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2022-06-20 21:59:02.129 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 55 ] - Starting MarketingMgtApplication on chhh with PID 4840 (F:\GitTest\MarketingMgt1\backend\target\classes started by 18374 in F:\GitTest\MarketingMgt1\backend)
+2022-06-20 21:59:02.132 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 655 ] - The following profiles are active: dev
+2022-06-20 21:59:02.848 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 249 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-20 21:59:02.850 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 127 ] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-20 21:59:02.872 [ main ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 187 ] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-06-20 21:59:03.099 [ main ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 330 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-20 21:59:03.461 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 92 ] - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 21:59:03.470 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:59:03.471 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2022-06-20 21:59:03.471 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-20 21:59:03.588 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2022-06-20 21:59:03.588 [ main ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 284 ] - Root WebApplicationContext: initialization completed in 1423 ms
+2022-06-20 21:59:05.135 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-20 21:59:05.240 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 21:59:05.471 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2022-06-20 21:59:05.486 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2022-06-20 21:59:05.506 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2022-06-20 21:59:05.528 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 21:59:05.552 [ main ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 204 ] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 21:59:05.555 [ main ] - [ INFO  ] [ com.universe.MarketingMgtApplication : 61 ] - Started MarketingMgtApplication in 4.13 seconds (JVM running for 5.356)
+2022-06-20 21:59:09.235 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 21:59:09.237 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 525 ] - Initializing Servlet 'dispatcherServlet'
+2022-06-20 21:59:09.243 [ http-nio-8080-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 547 ] - Completed initialization in 6 ms
+2022-06-20 21:59:09.309 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2022-06-20 21:59:09.763 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2022-06-20 21:59:10.140 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2022-06-20 21:59:10.141 [ http-nio-8080-exec-2 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2022-06-20 22:07:38.826 [ http-nio-8080-exec-4 ] - [ INFO  ] [ com.universe.aop.LogAspect : 87 ] - 库存管理-修改库存信息
+2022-06-20 22:07:41.940 [ http-nio-8080-exec-5 ] - [ INFO  ] [ com.universe.aop.LogAspect : 87 ] - 库存管理-分页模糊查询库存列表
+2022-06-20 22:18:49.225 [ http-nio-8080-exec-7 ] - [ INFO  ] [ com.universe.aop.LogAspect : 87 ] - 产品管理-查询产品列表
+2022-06-20 22:27:06.693 [ http-nio-8080-exec-10 ] - [ INFO  ] [ com.universe.aop.LogAspect : 87 ] - 分类管理-查询分类列表

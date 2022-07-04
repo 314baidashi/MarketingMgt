@@ -1,0 +1,2 @@
+2022-05-31 17:56:01.011 [ main ] - [ WARN  ] [ tk.mybatis.spring.mapper.ClassPathMapperScanner : 142 ] - No MyBatis mapper was found in '[com.universe]' package. Please check your configuration.
+2022-05-31 17:56:01.099 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.universe]' package. Please check your configuration.

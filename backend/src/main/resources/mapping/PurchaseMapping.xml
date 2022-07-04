@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.universe.marketing.purchase.mapper.PurchaseMapper">
+    <select id="queryPageList" resultType="com.universe.marketing.purchase.pojo.vo.PurchasePageListVo">
+        select purchase.*, users.name from purchase , users
+        <where>
+            <if test="beginTime!=null">
+                to_char(create_datetime, 'yyyy-mm-dd HH:ii:ss') like regexp_replace(concat('%','${beginTime}','%'),'\\','\\\','g')
+            </if>
+            <if test="person!=null">
+                and purchase.purchase_charge_person_id = (select users.id where users.name like regexp_replace(concat('%','${person}','%'),'\\','\\\','g'))
+             </if>
+        </where>
+
+        <if test="pageNum!=0 and pageSize!=0">
+            LIMIT ${pageNum} OFFSET ${pageSize}
+        </if>
+        <if test="pageNum!=0 and pageSize==0">
+            LIMIT ${pageNum} OFFSET 0
+        </if>
+        <if test="pageNum==0">
+            LIMIT 10 OFFSET ${pageSize}
+        </if>
+    </select>
+    <select id="queryPageListCount" resultType="int">
+        select count (1) from purchase , users
+        <where>
+            <if test="beginTime!=null">
+                to_char(create_datetime, 'yyyy-mm-dd HH:ii:ss') like regexp_replace(concat('%','${beginTime}','%'),'\\','\\\','g')
+            </if>
+            <if test="person!=null">
+                and purchase.purchase_charge_person_id = (select users.id where users.name like regexp_replace(concat('%','${person}','%'),'\\','\\\','g'))
+            </if>
+        </where>
+    </select>
+</mapper>
